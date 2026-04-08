@@ -37,23 +37,14 @@ The system is built around a layered control architecture:
 ### CAD Model
 The robot was first designed using **Fusion360**.
 
-<p align="center">
-  <img src="docs/images/cleanbit_cad.png" alt="Cleanbit CAD model" width="750">
-</p>
 
 ### Gazebo Simulation
 Gazebo was used to validate robot behavior and the navigation workflow in a simulated environment. More on that [here](https://github.com/FedericoGGiuliana/cleanbit_simulate.git).
 
-<p align="center">
-  <img src="docs/images/cleanbit_gazebo.png" alt="Cleanbit in Gazebo" width="750">
-</p>
 
 ### RViz Visualization
 RViz was used to inspect robot state, LiDAR data, mapping/localization outputs, and navigation behavior.
 
-<p align="center">
-  <img src="docs/images/cleanbit_rviz.png" alt="Cleanbit in RViz" width="750">
-</p>
 
 
 ## Installation and Running
@@ -149,8 +140,4 @@ source /opt/ros/humble/setup.bash
 rviz2
 ```
 
-## Media
-
-- [Simulation navigation demo](docs/videos/cleanbit_navigation_sim.mp4)
-- [Brush subsystem demo](docs/videos/cleanbit_brush_demo.mp4)
 
