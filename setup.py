@@ -10,13 +10,13 @@ setup(
     packages=[package_name],
     install_requires=['setuptools','pyserial'],
     zip_safe=True,
-    maintainer='simenza',
-    maintainer_email='simenza@example.com',
-    description='Controller for SPAZZ.INO',
+    maintainer='Federico Giuliana',
+    maintainer_email='federico.giuliana12@gmail.com',
+    description='Controller for CleanBit',
     license='MIT',
     entry_points={
         'console_scripts': [
-            'arduino_bridge = spazzino_control.arduino_bridge:main'
+            'arduino_bridge = cleanbit_control.arduino_bridge:main'
         ],
     },
 )
