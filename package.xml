@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>spazzino_control</name>
+  <name>cleanbit_control</name>
   <version>0.0.0</version>
-  <description>A ROS 2 package for SPAZZ.INO control, mapping and autonomous navigation.</description>
+  <description>A ROS 2 package for CleanBit control, mapping and autonomous navigation.</description>
   <maintainer email="federico.giuliana12@gmail.com">Federico Giuliana</maintainer>
   <license>Apache License 2.0</license>
 
