@@ -3,7 +3,7 @@
 **Cleanbit** is an autonomous outdoor robotic platform developed for waste management and cleaning-related applications.  
 
 <p align="center">
-  <img src="media/cleanbit_robot.jpg" alt="Cleanbit prototype" width="800">
+  <img src="media/cleanbit_robot.jpeg" alt="Cleanbit prototype" width="800">
 </p>
 
 ## Technical Overview
