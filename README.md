@@ -42,7 +42,7 @@ The robot was first designed using **Fusion360**.
 </p>
 
 ### Gazebo Simulation
-Gazebo was used to validate robot behavior and the navigation workflow in a simulated environment.
+Gazebo was used to validate robot behavior and the navigation workflow in a simulated environment. More on that [here](https://github.com/FedericoGGiuliana/cleanbit_simulate.git).
 
 <p align="center">
   <img src="docs/images/cleanbit_gazebo.png" alt="Cleanbit in Gazebo" width="750">
