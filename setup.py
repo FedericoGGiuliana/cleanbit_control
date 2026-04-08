@@ -2,7 +2,7 @@
 
 from setuptools import setup
 
-package_name = 'spazzino_control'
+package_name = 'cleanbit_control'
 
 setup(
     name=package_name,
