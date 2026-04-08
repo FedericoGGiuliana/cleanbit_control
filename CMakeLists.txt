@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(spazzino_control)
+project(cleanbit_control)
 
 # Find dependencies
 find_package(ament_cmake REQUIRED)
@@ -20,7 +20,7 @@ install(
 
 # Installs python scripts as programs
 install(PROGRAMS
-  spazzino_control/arduino_bridge.py
+  cleanbit_control/arduino_bridge.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
