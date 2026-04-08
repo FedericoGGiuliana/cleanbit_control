@@ -11,7 +11,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
 
-    package_name = "spazzino_control"
+    package_name = "cleanbit_control"
 
 
     # Set paths to Xacro model and configuration files
@@ -104,26 +104,6 @@ def generate_launch_description():
             parameters=[joy_params_path],
             remappings=[('/cmd_vel', '/cmd_vel_joy')]
         )
-
-    # rviz_node = Node(
-    #         package='rviz2',
-    #         executable='rviz2',
-    #         name='rviz2',
-    #         output='screen')
-
-    # esp_odom_node = Node(
-    #     package='spazzino_control',
-    #     executable='esp_odom_node.py',
-    #     name='esp_odom_node',
-    #     output='screen'
-    # )
-
-    # esp_cmdvel_node = Node(
-    #     package='spazzino_control',
-    #     executable='esp_cmdvel_node.py',
-    #     name='esp_cmdvel_node',
-    #     output='screen'
-    # )
 
 
     slam_toolbox_launch = IncludeLaunchDescription(
