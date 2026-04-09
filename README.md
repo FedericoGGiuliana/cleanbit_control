@@ -24,12 +24,12 @@ The system is built around a layered control architecture:
 ## Hardware and Embedded Architecture
 
 ### Motors
-- **JGA250 DC Motors** for differential-drive locomotion
+- **JGA25-370 DC Motors** for differential-drive locomotion
 - **DC Motor reductors (3-6 V)** for brush rotation
 
 ### Sensors
 - RPLidar C1
-- Encoders from JGA250 motors
+- Encoders from JGA25-370 motors
 
 
 ## Design and Validation
