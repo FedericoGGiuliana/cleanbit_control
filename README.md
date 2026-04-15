@@ -37,6 +37,11 @@ The system is built around a layered control architecture:
 ### CAD Model
 The robot was first designed using **Fusion360**.
 
+<p align="left">
+  <img src="media/front_render.jpeg" alt="" width="300">
+  <img src="media/back_render.jpeg" alt="" width="320">
+</p>
+
 
 ### Gazebo Simulation
 Gazebo was used to validate robot behavior and the navigation workflow in a simulated environment. More on that [here](https://github.com/FedericoGGiuliana/cleanbit_simulate.git).
