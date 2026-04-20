@@ -145,4 +145,7 @@ source /opt/ros/humble/setup.bash
 rviz2
 ```
 
+## Media
+[Navigation Demo](media/navigation_demo.mp4)
+
 
